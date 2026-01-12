@@ -1,3 +1,9 @@
+-- Create the database
+CREATE DATABASE online_store;
+
+-- Use the database
+USE online_store;
+
 -- 1. Table for product categories (like Jerseys, Balls, Posters)
 CREATE TABLE Categories (
     CategoryID INT PRIMARY KEY AUTO_INCREMENT,
