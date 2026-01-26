@@ -50,3 +50,5 @@ CREATE TABLE OrderItems (
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
+
+ALTER TABLE products ADD COLUMN Image VARCHAR(255);
